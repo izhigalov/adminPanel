@@ -1,3 +1,52 @@
-//
-   Created by test on 06.08.2017.
 
+#modal
+    .modal__content
+        .modal__content_heading
+            .accaunts__mail nokhchoprint@ya.ru
+            span.close &times
+        .modal__content_wrapper
+            .modal__content--left
+                .modal__content--left_heading
+                    img(src='assets/img/contacticon.png')
+                    span.contact__item--heading Указанные реквизиты совпадают<br>
+                     |с созданной карточкой компании:<br>
+                     |ПЕРМЬ
+                .modal__content--left_content
+                    span.contact__data Полное наименование
+                    span.contact__item Общество с ограниченной отвественностью<br>213123123123
+                    span.contact__data Юридический адрес
+                    span.contact__item.devide 614068, г.Пермь, ул.Крылова, д.4
+                    span.contact__data ИНН
+                    span.contact__item.devide 5902836184
+                    span.contact__data КПП
+                    span.contact__item.devide 590201001
+                    span.contact__data ОГРН
+                    span.contact__item.devide 1075902001317
+                    span.contact__data ОКВЭД
+                    span.contact__item.devide 58
+                    span.contact__data ФИО Руководителя
+                    span.contact__item Лошкарев Алексей Григорьевич
+            .modal__content--right
+                ul.modal__content_list
+                    li.modal__content_item
+                        span.contact__data--regdata регистрационные данные
+                    li.modal__content_item
+                        span.contact__data Контактное лицо
+                        span.contact__item Малгобек Мурад Маглобекович
+                    li.modal__content_item
+                        span.contact__data Телефон
+                        span.contact__item +7(953)000-00-00
+                    li.modal__content_item
+                        span.contact__data E-mail
+                        span.contact__item nokhchoprint@ya.ru
+                    li.modal__content_item
+                        span.contact__data Дата регистрации
+                        span.contact__item 20.10.18 15:30
+                .modal__content_confirm
+                    button.modal__btn_block#popup__btn Заблокировать
+                    button.modal__btn_confirm Подтвердить
+                    #popup_content
+                        #popup
+                            span.popup__title Вы хотите заблокировать пользователя?
+                            button.popup__btn_block Да
+                            button.popup__btn_confirm#btn_confirm Нет

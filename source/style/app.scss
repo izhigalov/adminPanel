@@ -1,5 +1,17 @@
 body {
   margin: 0;
+  background-color: #EEEEEE;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
 }
 
 @import 'common/greating';
+@import 'common/accaunts';
+@import 'common/sidebar';
+@import 'common/modal';
+@import 'common/mediaqueries';
+@import 'common/mixins';
+@import 'common/popup';

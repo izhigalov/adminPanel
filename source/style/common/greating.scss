@@ -1,27 +1,65 @@
-.greating {
-  overflow: hidden;
+//.greating {
+//  overflow: hidden;
+//  position: relative;
+//  padding: 150px 20px 50px;
+//  background: #F44336;
+//  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+//
+//  &_text {
+//    font: 45px 'Arial', sans-serif;
+//    color: #fff;
+//  }
+//
+//  &_picture {
+//    position: absolute;
+//    bottom: 0;
+//    right: 0;
+//    width: 100px;
+//    height: 114px;
+//    background: url('/assets/img/viking.png') no-repeat center;
+//    transform: translate3D(100%, 0, 0);
+//    transition: transform 0.5s;
+//  }
+//}
+//
+//.greating_picture.m--show {
+//  transform: translate3D(0, 0, 0);
+//}
+
+body{
+  font-size: 100%;
+}
+
+.wrapper{
   position: relative;
-  padding: 150px 20px 50px;
-  background: #F44336;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
 
-  &_text {
-    font: 45px 'Arial', sans-serif;
-    color: #fff;
+a{
+  text-decoration: none;
+}
+.header__title{
+  font-size: 1.125em;
+  text-transform: uppercase;
+  font-family: OpenSans;
+  height: 50%;
+  line-height: 55px;
+  margin: 0;
+  border-bottom: 1px solid #C7C7C7;
+  color: #5A5A5A;
+}
+
+.header__title_list{
+  display: flex;
+  :first-child{
+    flex-grow: 3;
+    padding-left: 20px;
   }
-
-  &_picture {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100px;
-    height: 114px;
-    background: url('/assets/img/viking.png') no-repeat center;
-    transform: translate3D(100%, 0, 0);
-    transition: transform 0.5s;
+  li{
+    width: 130px;
   }
 }
 
-.greating_picture.m--show {
-  transform: translate3D(0, 0, 0);
+.header{
+  margin: 0 50px 0 90px;
+  height: 110px;
 }

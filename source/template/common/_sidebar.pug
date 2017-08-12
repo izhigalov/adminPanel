@@ -1,3 +1,98 @@
-//
-   Created by test on 06.08.2017.
+.sidebar
+    .sudebar__header
+        //i.fa.fa-info.fa-2x
+        //i.fa.fa-user-circle.fa-2x
+        //img.sidebar__item_link__img(src='assets/img/info.png')
+        //img.sidebar__item_link__img(src='assets/img/logo.png')
+        ul.sidebar__list--header
+            li.sidebar__item--header
+                a.sidebar__item_link--header(href='#')
+                    img.sidebar__item_link__imgo(src='assets/img/info.png')
+            li.sidebar__item--header
+                a.sidebar__item_link--header(href='#')
+                    img.sidebar__item_link__img#logo(src='assets/img/logo.png')
+                .sidebar__item_accaunt#accauntInfo
+                    .accaunt__logo
+                        img.accaunt__logo_img(src='assets/img/accaunt_logo.png')
+                    .accaunt__name super.mega.odmen.serge...
+                    span.close#closeAccaunt &times
+    .sidebar__content
+        ul.sidebar__list
+            li.sidebar__item
+                a.sidebar__item_link(href='#')
+                    img.sidebar__item_link__img.btn_sidebar(src='assets/img/subj.png')
+            li.sidebar__item.hint
+                a.sidebar__item_link(href='#')
+                    img.sidebar__item_link__img(src='assets/img/shield.png')
+                    .popup Модерация
+            li.sidebar__item.hint
+                a.sidebar__item_link(href='#')
+                    img.sidebar__item_link__img(src='assets/img/people2.png')
+                ul.sidebar__item-menu
+                    li.sidebar__item-menu_list
+                        a(href='#') Пользователи
+                    li.sidebar__item-menu_list
+                        a(href='#') Администраторы
+                    li.sidebar__item-menu_list
+                        a(href='#') Модераторы
+                    li.sidebar__item-menu_list
+                        a(href='#') Компании
+                    li.sidebar__item-menu_list
+                        a(href='#') Заблокированные
+            li.sidebar__item
+                a.sidebar__item_link(href='#')
+                    img.sidebar__item_link__img(src='assets/img/school.png')
+            li.sidebar__item
+                a.sidebar__item_link(href='#')
+                    img.sidebar__item_link__img(src='assets/img/people.png')
+            li.sidebar__item
+                a.sidebar__item_link(href='#')
+                    img.sidebar__item_link__img(src='assets/img/ic_play.png')
+
+.mainsidebar#mainsidebar
+    .mainsidebar__header
+        .mainsidebar__logo
+            img.mainsidebar__logo_img(src='assets/img/side_logo.png')
+        ul.mainsidebar__userinfo
+            li.userinfo__item
+                img.userinfo__item_img(src='assets/img/acc_logo.png')
+            li.userinfo__item
+                span.accuntname super.mega.odmen
+            li.userinfo__item
+                span.close_userinfo &times
+    .mainsidebar__content
+        ul.sidebar__list_mainesaide
+            li.sidebar__item--aside
+                a.sidebar__item_link--aside(href='#')
+                    img.sidebar__item_link__img.btn_sidebar(src='assets/img/subj.png')
+                ul.sidebar__item_content--aside
+                    li Контент
+                    li Компании
+            li.sidebar__item--aside
+                a.sidebar__item_link--aside(href='#')
+                    img.sidebar__item_link__img(src='assets/img/shield.png')
+                ul.sidebar__item_content--aside
+                    li
+                        span.moder Модерация
+                    li
+                        span.moder Регистрации +5
+            li.sidebar__item--aside
+                a.sidebar__item_link--aside(href='#')
+                    img.sidebar__item_link__img(src='assets/img/people2.png')
+                ul.sidebar__item_content--aside
+                    li Пользователи
+                    li Администраторы
+                    li Компании
+                    li Заблокированные
+            li.sidebar__item--aside
+                a.sidebar__item_link--aside(href='#')
+                    img.sidebar__item_link__img(src='assets/img/school.png')
+                ul.sidebar__item_content--aside
+                    li Справочники
+                    li Вид детельности
+            li.sidebar__item--aside#close_sidebar
+                a.sidebar__item_link--aside(href='#')
+                    img.sidebar__item_link__img(src='assets/img/ic_play_rev.png')
+                ul.sidebar__item_content--aside
+                    li Свернуть
 
